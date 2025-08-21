@@ -1,0 +1,10 @@
+pymupdf
+requests
+numpy
+pandas
+pillow
+tqdm
+easyocr
+python-dotenv
+pydrive2
+openpyxl
