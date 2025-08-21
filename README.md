@@ -1,5 +1,5 @@
 # ATART: Academic Transcript Automatic Renaming Tool
-### Video Demo:  [https://youtu.be/f9CFL15MWdA](https://youtu.be/f9CFL15MWdA)
+### Video Demo:  [https://youtu.be/ns5L9wIlPu4](https://youtu.be/ns5L9wIlPu4)
 
 > [!TIP]
 > Watch this video to see how this tool works.
