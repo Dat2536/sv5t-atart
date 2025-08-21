@@ -41,12 +41,12 @@ As the number of transcripts grows, manually renaming each transcript becomes ti
 
 ATART can be run in two modes: `local` (files on your computer) and `online` (files on Google Drive with a Google Sheet).
 
-> [!IMPORTANT]
-> Run requirements.txt to install required libraries.
-
 ```bash
 pip install -r requirements.txt
 ```
+
+> [!IMPORTANT]
+> Run requirements.txt to install required libraries.
 
 ### 1. Local Mode
 Use this mode if all PDFs and the student list (Excel file) are stored on your computer.
@@ -126,6 +126,21 @@ pytest tests/test_project.py::test_function_name
 > [!CAUTION]
 > If you change anything related to the initial code, please change them in the file too.
 
+### 4. Sample Online Testcases
+#### Mock Test: [https://drive.google.com/drive/folders/1vYOgboQiAjX4XV8cpPd72HNeZNyVa51r](https://drive.google.com/drive/folders/1vYOgboQiAjX4XV8cpPd72HNeZNyVa51r)
+#### Real Data 2024: [https://drive.google.com/drive/folders/1o2DseA-XB5tBMTMcMbfTLr05iWYM2HPl](https://drive.google.com/drive/folders/1o2DseA-XB5tBMTMcMbfTLr05iWYM2HPl)
+
+### 5. Reset Test
+Reset `local` test
+```bash
+python scrabble.py
+```
+
+Reset `online` test
+```bash
+python online_scrabble.py
+```
+
 ## Challenges and Limitations
 
 ATART is built with a very specific use case in mind: extracting student IDs from scanned academic transcripts and renaming the corresponding PDF files. While it performs this task effectively, there are still several challenges and limitations.
@@ -154,7 +169,7 @@ ATART is built with a very specific use case in mind: extracting student IDs fro
 
 - `python-dotenv` for environment variable management
 
-Special thanks to **Prof. David Malan** and **Mr. Carter Zenke** for the CS50P lectures and shorts, which inspired and guided the development of this project.
+Special thanks to **Prof. David Malan** and **Mr. Carter Zenke** from Harvard University for your CS50P lectures and shorts, which inspired and guided the development of this project.
 
 Gratitude also goes to the **open-source community** for creating and maintaining the tools that made this project possible.
 
